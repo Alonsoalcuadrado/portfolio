@@ -1,0 +1,29 @@
+@mixin heading-xl($heading-color) {
+    font-weight: bold;
+    font-size: 5.5em;
+    line-height: 5.5em;
+    letter-spacing: -2.5px;
+    color: $heading-color;
+}
+
+@mixin heading-l($heading-color) {
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 3.5em;
+    letter-spacing: -1.5px;
+    color: $heading-color;
+}
+
+@mixin heading-m($heading-color) {
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 2em;
+    color: $heading-color;
+}
+
+@mixin regular($regular-color) {
+    font-weight: bold;
+    font-size: 1.125em;
+    line-height: 1.75em;
+    color: $regular-color;
+}

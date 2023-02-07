@@ -1,0 +1,22 @@
+//Sass settings
+@import './vars';
+@import './mixins';
+
+//Components
+@import './components/app';
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+:root {
+    font-family: 'Space Grotesk', Inter, system-ui, Avenir, sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

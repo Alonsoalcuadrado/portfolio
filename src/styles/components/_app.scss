@@ -1,0 +1,7 @@
+.app {
+    background-color: $black-color;
+}
+.app .app-header {
+    margin: 0;
+    @include heading-xl($white-color);
+}
