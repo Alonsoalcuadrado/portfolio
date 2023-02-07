@@ -1,3 +1,5 @@
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+
 const Navbar = () => {
 
   return (
@@ -6,10 +8,8 @@ const Navbar = () => {
             adamkeyes
         </h4>
         <ul className="navbar-social-logos">
-            <li>logo</li>
-            <li>logo</li>
-            <li>logo</li>
-            <li>logo</li>
+            <li><a href="https://github.com/Alonsoalcuadrado" target="_blank"><FaGithub /></a></li>
+            <li><a href="https://www.linkedin.com/in/alonsoalcuadrado/" target="_blank"><FaLinkedin /></a></li>
         </ul>
     </div>
   )
