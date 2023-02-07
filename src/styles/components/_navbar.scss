@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $white-color;
+
+    .navbar-name {
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    .navbar-social-logos {
+        display: flex;
+        list-style: none;
+        li {
+            margin: 0 10px;
+        }
+    }
+}
