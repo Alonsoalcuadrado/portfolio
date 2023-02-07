@@ -1,6 +1,35 @@
 .app {
+    .app-header-decoration {
+        position: absolute;
+        margin-top: 62px;
+        left: 0;
+    }
+
+    .app-header-photo {
+        position: absolute;
+        right: 165px;
+        top: 0;
+        z-index: -1;
+        width: 500px;
+    }
+
+    .app-header-oval {
+        position: absolute;
+        top: 600px;
+        right: 600px;
+    }
+
     .app-header {
-        margin: 0;
+        margin-top: 116px;
+        max-width: 706px;
         @include heading-xl($white-color);
+        .app-header-text-underline {
+            border-bottom: solid 5px $green-color;
+        }
+    }
+
+    .app-header-description {
+        width: 445px;
+        @include regular($gray-color)
     }
 }

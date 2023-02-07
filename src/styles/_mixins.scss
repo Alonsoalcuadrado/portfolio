@@ -1,7 +1,6 @@
 @mixin heading-xl($heading-color) {
     font-weight: bold;
     font-size: 5.5em;
-    line-height: 5.5em;
     letter-spacing: -2.5px;
     color: $heading-color;
 }
